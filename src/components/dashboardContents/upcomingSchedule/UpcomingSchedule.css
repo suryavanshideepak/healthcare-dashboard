@@ -1,0 +1,50 @@
+.upcoming-schedule {
+    margin-top: 1rem;
+  }
+  .upcoming-schedule h3 {
+    margin: 20px 0px;
+  }
+  
+  .day-section {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .day-section h4 {
+    margin-bottom: 0.75rem;
+    color: lightgray;
+  }
+  .section-schedule-heading{
+    color: rgb(151, 146, 146);
+    margin: 0px 18px;
+  }
+  .upcoming-heading{
+    font-size: 1.2rem;
+    margin: 0px 15px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 1024px){
+    .upcoming-schedule h3 {
+      font-size: 0.7rem;
+    }
+    .upcoming-schedule p {
+      font-size: 0.6rem;
+    }
+    .section-schedule-heading {
+      font-size: 0.6rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .day-section {
+      flex-direction: column;
+    }
+  
+    .simple-appointment-card {
+      flex: 0 0 100% !important;
+      max-width: 100%;
+    }
+  }
+
+  

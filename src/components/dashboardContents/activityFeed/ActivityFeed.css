@@ -1,0 +1,47 @@
+.activity-feed {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin:30px 0px;
+  }
+  
+  .activity-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .activity-subtitle {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .activity-chart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 155px;
+    padding: 0 0.5rem;
+  }
+  
+  .bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .bar {
+    width: 20px;
+    background-color: #44c9ff;
+    border-radius: 4px 4px 0 0;
+    transition: height 0.3s ease;
+  }
+  
+  .bar-label {
+    margin-top: 6px;
+    font-size: 0.75rem;
+    color: #444;
+  }
+  

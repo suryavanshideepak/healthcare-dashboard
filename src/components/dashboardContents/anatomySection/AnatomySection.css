@@ -1,0 +1,66 @@
+.anatomy-section {
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    width: 325px;
+    padding: 20px;
+  }
+  
+  .anatomy-section img {
+    width: 100%;
+  }
+  
+  .indicator {
+    position: absolute;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .healthy {
+    background-color: var(--success-color);
+    color: white;
+  }
+  .healthy:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .issue {
+    background-color: var(--danger-color);
+    color: white;
+  }
+  .issue:hover {
+    background-color: skyblue;
+    color: white;
+  }
+
+/* media queries */
+  @media (max-width: 1024px) {
+    .anatomy-section {
+      width: 250px;
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+    .anatomy-section {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 992px){
+    .indicator {
+      padding: 4px 7px;
+    }
+
+  }
+  
+  @media (min-width: 992px){
+    .indicator {
+        font-size: 10px;
+    }
+  }
+  
+  

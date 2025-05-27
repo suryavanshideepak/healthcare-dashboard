@@ -1,0 +1,73 @@
+:root {
+    --font-family-sans: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    --font-family-mono: 'Courier New', Courier, monospace;
+  
+    --font-weight-light: 300;
+    --font-weight-regular: 500;
+    --font-weight-medium: 600;
+    --font-weight-bold: 700;
+    --font-xxs:0.6rem;
+    --font-xs: 0.75rem;  
+    --font-sm: 0.875rem;   
+    --font-base: 1rem;     
+    --font-md: 1.125rem;   
+    --font-lg: 1.25rem;    
+    --font-xl: 1.5rem;     
+    --font-xxl: 2rem;     
+  }
+  .text-xxs {
+    font-size: var(--font-xxs);
+  }
+
+  .text-xs {
+    font-size: var(--font-xs);
+  }
+  
+  .text-sm {
+    font-size: var(--font-sm);
+  }
+  
+  .text-base {
+    font-size: var(--font-base);
+  }
+  
+  .text-md {
+    font-size: var(--font-md);
+  }
+  
+  .text-lg {
+    font-size: var(--font-lg);
+  }
+  
+  .text-xl {
+    font-size: var(--font-xl);
+  }
+  
+  .text-xxl {
+    font-size: var(--font-xxl);
+  }
+  
+  .font-light {
+    font-weight: var(--font-weight-light);
+  }
+  
+  .font-regular {
+    font-weight: var(--font-weight-regular);
+  }
+  
+  .font-medium {
+    font-weight: var(--font-weight-medium);
+  }
+  
+  .font-bold {
+    font-weight: var(--font-weight-bold);
+  }
+  
+  .font-sans {
+    font-family: var(--font-family-sans);
+  }
+  
+  .font-mono {
+    font-family: var(--font-family-mono);
+  }
+  

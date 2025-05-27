@@ -1,0 +1,147 @@
+.calendar-view-custom {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .calendar-title {
+    margin-bottom: 1rem;
+  }
+  
+  .calendar-row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .calendar-cell {
+    text-align: center;
+    padding: 0.5rem 0.1rem;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+  }
+
+  
+  .time-cell {
+    background-color: #f9f9f9;
+    font-size: 0.8rem;
+    white-space: pre-wrap;
+  }
+  
+  .disabled {
+    background-color: #ddd;
+    color: #888;
+  }
+  /* Existing styles above... */
+
+.appointment-details {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .appointment-card1 {
+    flex: 1;
+    min-width: 120px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-radius: 27px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+  }
+  .appointment-card2 {
+    flex: 2;
+    min-width: 120px;
+    background-color: lightgray;
+    color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 33px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+  }
+  
+  .appointment-card1 h4 {
+    margin-bottom: 0.5rem;
+}
+  
+  .appointment-card1 p {
+    margin: 0.25rem 0;
+    padding: 3px 0px;
+    font-size: 0.8rem;
+  }
+  .appointment-card2 h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .appointment-card2 p {
+    margin: 0.25rem 0;
+    padding: 3px 0px;
+    font-size: 0.8rem;
+  }
+
+  .card-icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+
+  .left-right-calendar-icon{
+    display: flex;
+    gap: 2;
+  }
+
+  .calendar-heading{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+  
+  .left-cursor{
+    margin-right: 10px;
+  }
+  
+  .highlight-time{
+    color: white;
+    background-color: var(--primary-color);
+  }
+
+  .lighthighlight-time{
+    color: white;
+    background-color: #adadd3;
+  }
+
+  @media (max-width: 1024px){
+    .appointment-card1 h4 {
+      font-size: 0.8rem;
+    }
+    
+    .appointment-card1 p {
+      font-size: 0.7rem;
+    }
+    .appointment-card2 h4 {
+      font-size: 0.8rem;
+    }
+    .appointment-card2 p {
+      font-size: 0.7rem;
+    }
+  }
+
+  @media (max-width: 992px){
+    .calendar-cell {
+      font-size: 10px;
+    }
+    .appointment-card2 h4 {
+      font-size: 0.7rem;
+    }
+  }
+
+  @media (max-width: 480px){
+    .appointment-details {
+      display: flex;
+      flex-direction: column;
+    }
+  }

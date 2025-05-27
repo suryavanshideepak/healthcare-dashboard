@@ -1,0 +1,74 @@
+#root {
+  margin: 0 auto;
+  padding: 0 auto;
+  color:var(--primary-color)
+}
+
+.app_main {
+  display: flex;
+  font-family: 'Segoe UI',sans-serif;
+}
+
+.dashboard_section{
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow:auto;
+  flex-direction: column;
+  background-color: var(--background-color);
+}
+.body{
+  background-color: var(--background-color);
+}
+.dashboard-main {
+  padding: 15px;
+  height: 85vh;
+  overflow:auto;
+  display: flex;
+  margin-top: 10px;
+}
+.dashboard-heading{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard-overview-section{
+  flex: 1;
+}
+.health-schedule-section{
+  width: 50%;
+  flex: 1;
+  background-color: var(--secondary-color);
+}
+
+.dashboard-dropdown-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-dropdown-icon p{
+  margin: 0px 5px;
+}
+
+@media (max-width: 768px) {
+  .main-sidebar {
+    display: none;
+  }
+  .dashboard-overview-section{
+    width: 100%;
+  }
+  .health-schedule-section{
+    width: 100%;
+  }
+  .dashboard-main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-main{
+    height: 100vh;
+  }
+}

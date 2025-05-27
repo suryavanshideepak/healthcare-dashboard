@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow: hidden;
+}
+
+:root {
+  --primary-color: #333376;
+  --secondary-color: #f8f6f6;
+  --background-color: #ffff;
+  --text-color: #212529;
+  --success-color: #78ef94;
+  --danger-color: #e85c6a;
+    font-family:  'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
